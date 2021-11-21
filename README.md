@@ -1,6 +1,6 @@
 [![CircleCI](https://circleci.com/gh/zakdim/spring5-mysql-recipe-app/tree/master.svg?style=svg)](https://circleci.com/gh/zakdim/spring5-recipe-app/tree/master)
 
-[![codecov](https://codecov.io/gh/zakdim/spring5-mysql-recipe-app/branch/master/graph/badge.svg?token=SF6BA3YVF7)](https://codecov.io/gh/zakdim/spring5-mysql-recipe-app)
+[comment]: <> ([![codecov]&#40;https://codecov.io/gh/zakdim/spring5-mysql-recipe-app/branch/master/graph/badge.svg?token=SF6BA3YVF7&#41;]&#40;https://codecov.io/gh/zakdim/spring5-mysql-recipe-app&#41;)
 
 # Section 7: Web Development with Spring MVC
 
