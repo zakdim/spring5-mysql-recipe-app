@@ -25,8 +25,8 @@ jobs:
           name: Test
           command: mvn test cobertura:cobertura
 
-#      - store_test_results:
-#          path: target/surefire-reports
+      - store_test_results:
+          path: target/surefire-reports
 
 workflows:
   # Below is the definition of your workflow.
@@ -38,5 +38,5 @@ workflows:
       - build-and-test
   upload-to-codecov:
     jobs:
-      - checkout
+#      - checkout
       - codecov/upload
