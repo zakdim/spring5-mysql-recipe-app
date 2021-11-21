@@ -1,4 +1,7 @@
 [![CircleCI](https://circleci.com/gh/zakdim/spring5-mysql-recipe-app/tree/master.svg?style=svg)](https://circleci.com/gh/zakdim/spring5-recipe-app/tree/master)
+
+[![codecov](https://codecov.io/gh/zakdim/spring5-mysql-recipe-app/branch/master/graph/badge.svg?token=SF6BA3YVF7)](https://codecov.io/gh/zakdim/spring5-mysql-recipe-app)
+
 # Section 7: Web Development with Spring MVC
 
 ## s07-110 InjelliJ Compiler Configuration for Spring Boot Development Tools
@@ -47,3 +50,14 @@ Username: root
 Password:
 
 * In `SequelPro` execute queries from `scripts/configure-mysql.sql` to initialize DBs and users
+
+### Lecture 310 - Code Coverage Configuration for CodeCov.io
+
+CodeCov Token: 620e364a-9767-449a-a093-a16cafb58b38
+
+Use this token when uploading reports to this repository.
+You can set it in your CI environment variables.
+
+```
+CODECOV_TOKEN='620e364a-9767-449a-a093-a16cafb58b38'
+```
