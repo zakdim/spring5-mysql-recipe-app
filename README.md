@@ -53,11 +53,3 @@ Password:
 
 ### Lecture 310 - Code Coverage Configuration for CodeCov.io
 
-CodeCov Token: 620e364a-9767-449a-a093-a16cafb58b38
-
-Use this token when uploading reports to this repository.
-You can set it in your CI environment variables.
-
-```
-CODECOV_TOKEN='620e364a-9767-449a-a093-a16cafb58b38'
-```
