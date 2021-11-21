@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>guru.springframework</groupId>
-    <artifactId>spring5-recipe-app</artifactId>
+    <artifactId>spring5-mysql-recipe-app</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>spring5-recipe-app</name>
+    <name>spring5-mysql-recipe-app</name>
     <description>Demo project for Spring Boot</description>
     <properties>
         <java.version>11</java.version>

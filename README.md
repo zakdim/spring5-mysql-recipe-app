@@ -1,4 +1,4 @@
-[![CircleCI](https://circleci.com/gh/zakdim/spring5-recipe-app/tree/master.svg?style=svg)](https://circleci.com/gh/zakdim/spring5-recipe-app/tree/master)
+[![CircleCI](https://circleci.com/gh/zakdim/spring5-mysql-recipe-app/tree/master.svg?style=svg)](https://circleci.com/gh/zakdim/spring5-recipe-app/tree/master)
 # Section 7: Web Development with Spring MVC
 
 ## s07-110 InjelliJ Compiler Configuration for Spring Boot Development Tools
@@ -18,3 +18,32 @@ JDBC URL: jdbc:h2:mem:testdb
 ## s10-181 Continuous Integration Testing with Circle CI
 
 Simple change to trigger Circle CI
+
+## Section 18 - Using MySQL with Spring Boot
+
+### Lecture 308 - Assignement Review - Configuration of MySQL
+
+* Create MySQL docker container `mysqldb-sfg`
+
+```
+# Use the same MySQL as in the course lecture (mysql:5)
+docker pull mysql:5
+
+docker run --name mysqldb-sfg -p 3306:3306 -e MYSQL_ALLOW_EMPTY_PASSWORD=yes -d mysql:5
+docker logs -f mysqldb-sfg
+
+# MySQL 8.0
+#docker run --name mysqldb-sfg -p 3306:3306 -e MYSQL_ROOT_PASSWORD=password -d mysql:8.0`
+# With MySQL 8.0
+# docker run -p 3306:3306 --name mysql -e MYSQL_ROOT_PASSWORD=password -d mysql mysqld --default-authentication-plugin=mysql_native_password 
+#docker run -p 3306:3306 --name mysqldb-sfg -e MYSQL_ROOT_PASSWORD=password -d mysql:8.0 mysqld --default-authentication-plugin=mysql_native_password 
+```
+
+* Use `SequelPro` application to connect to MySQL running in docker container
+
+Name: mysqldb-sfg
+Host: 127.0.0.1
+Username: root
+Password:
+
+* In `SequelPro` execute queries from `scripts/configure-mysql.sql` to initialize DBs and users
