@@ -51,5 +51,10 @@ Password:
 
 * In `SequelPro` execute queries from `scripts/configure-mysql.sql` to initialize DBs and users
 
-### Lecture 310 - Code Coverage Configuration for CodeCov.io
+### Lecture 311 - Spring Boot Configuration for MySQL
 
+* Run spring boot application with profile from command line:
+
+``` 
+mvn spring-boot:run -Dspring-boot.run.profiles=dev
+```
